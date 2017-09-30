@@ -8,7 +8,7 @@ public class Sort {
 
 	}
     public static int arrayPairSum(int[] nums) {
-    /*	
+    	
     	for(int i=0;i<nums.length-1;i++){//选择排序
     		for(int j=i+1;j<nums.length;j++){
     			if(nums[i]>nums[j]){
@@ -17,9 +17,9 @@ public class Sort {
     				nums[j]=x;
     			}
     		}
-    	}*/
+    	}
     	
-    	/*for(int i=0;i<nums.length-1;i++){//冒泡排序
+    	for(int i=0;i<nums.length-1;i++){//冒泡排序
     		for(int j=nums.length-1;j>i;j--){
     			if(nums[j]<nums[j-1]){
     				int x=nums[j];
@@ -27,7 +27,7 @@ public class Sort {
     				nums[j-1]=x;
     			}
     		}
-    	}*/
+    	}
     	
     	for(int i=1;i<nums.length;i++){//插入排序     ，假设第一个数的排序是正确的，必须假设第一个
     		int j=i;
